@@ -11,22 +11,6 @@ I'm a frontend developer who enjoys building user-friendly web applications. I f
 - 🎯 Focused on clean code and great user experience
 - ☕ Powered by coffee and curiosity
 
-## Tech Stack
-
-**Languages:** JavaScript, TypeScript, HTML, CSS
-
-**Frameworks:** React, Vue.js, Next.js
-
-**Tools:** Git, VS Code, Figma
-
-**Styling:** Tailwind CSS, SASS
-
-## GitHub Stats
-
-![Clement's GitHub stats](https://github-readme-stats.vercel.app/api?username=Clement&show_icons=true&theme=default&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Clement&layout=compact&theme=default&hide_border=true)
-
 ## What I'm Working On
 
 Currently focused on building responsive web applications with React and TypeScript. Always exploring new frontend technologies and best practices.
