@@ -7,21 +7,6 @@
 
 </div>
 
-## Highlighted Real-World Project
-
-**Personal Project: BHV English Center Landing Page**  
-**Live Demo**: [bhvspecialcourses.com](https://www.bhvspecialcourses.com)  
-
-Designed and developed a responsive, conversion-focused landing page for **BHV English Center** – a real English training center.  
-The site focuses on clear course presentation, trust-building content, and strong calls-to-action to increase sign-ups.
-
-- Modern, mobile-first layout optimized for marketing campaigns  
-- Sections for courses, teaching methodology, testimonials, FAQs, and contact  
-- Smooth animations and interactions to make the page feel premium  
-- Deployed and maintained in production for real users  
-
----
-
 ## About Me
 
 ```typescript
