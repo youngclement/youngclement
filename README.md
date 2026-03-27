@@ -3,7 +3,6 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Clement%20Hoang&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Web3%20Explorer&descSize=16&descAlignY=52)
 <div align="center">
 
-<img src="/clement.svg" width="800" />
 
 </div>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Building+AI-Powered+Web+Applications;Full-Stack+TypeScript+Developer;Turning+Ideas+into+Products)](https://git.io/typing-svg)
