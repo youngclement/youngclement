@@ -9,52 +9,52 @@
     </filter>
 
     <style>
-      /* Định nghĩa animation cho các nét vẽ */
       .white-line {
-        stroke-dasharray: 200; /* Giá trị ước tính đủ lớn cho các nét */
-        stroke-dashoffset: 200;
-        animation: draw 4s cubic-bezier(0.45, 0, 0.55, 1) infinite alternate;
+        stroke-dasharray: 250; 
+        stroke-dashoffset: 250;
+        /* Tăng thời gian lên 8s để cực kỳ chậm rãi */
+        animation: draw-slow 8s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
         fill: none;
         stroke: #ffffff;
-        stroke-width: 4;
+        stroke-width: 3.5;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
 
-      /* Animation vẽ nét (tương đương strokeDashoffset: 0) */
-      @keyframes draw {
-        0%, 10% { stroke-dashoffset: 200; }
-        90%, 100% { stroke-dashoffset: 0; }
+      @keyframes draw-slow {
+        0%, 15% { stroke-dashoffset: 250; opacity: 0; }
+        40%, 85% { stroke-dashoffset: 0; opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 1; }
       }
 
-      /* Animation phát sáng (nhịp thở) cho cả nhóm */
       #text-group-white {
         filter: url(#white-glow);
-        animation: breath 4s ease-in-out infinite alternate;
+        /* Hiệu ứng nhịp thở chậm */
+        animation: breathe-slow 8s ease-in-out infinite alternate;
       }
 
-      @keyframes breath {
-        0%, 50% { opacity: 0.7; }
-        100% { opacity: 1; filter: drop-shadow(0 0 8px white); }
+      @keyframes breathe-slow {
+        0%, 30% { opacity: 0.5; filter: drop-shadow(0 0 2px white); }
+        80%, 100% { opacity: 1; filter: drop-shadow(0 0 12px white); }
       }
 
-      /* Stagger: Tạo độ trễ cho từng chữ cái để vẽ lần lượt */
+      /* Tăng độ trễ (delay) giữa các nét để tạo nhịp điệu thong thả */
       .white-line:nth-child(1) { animation-delay: 0.0s; }
-      .white-line:nth-child(2) { animation-delay: 0.2s; }
-      .white-line:nth-child(3) { animation-delay: 0.4s; }
-      .white-line:nth-child(4) { animation-delay: 0.6s; }
-      .white-line:nth-child(5) { animation-delay: 0.8s; }
-      .white-line:nth-child(6) { animation-delay: 1.0s; }
-      .white-line:nth-child(7) { animation-delay: 1.2s; }
-      .white-line:nth-child(8) { animation-delay: 1.4s; }
-      .white-line:nth-child(9) { animation-delay: 1.6s; }
-      .white-line:nth-child(10) { animation-delay: 1.8s; }
-      .white-line:nth-child(11) { animation-delay: 2.0s; }
-      .white-line:nth-child(12) { animation-delay: 2.2s; }
+      .white-line:nth-child(2) { animation-delay: 0.4s; }
+      .white-line:nth-child(3) { animation-delay: 0.8s; }
+      .white-line:nth-child(4) { animation-delay: 1.2s; }
+      .white-line:nth-child(5) { animation-delay: 1.6s; }
+      .white-line:nth-child(6) { animation-delay: 2.0s; }
+      .white-line:nth-child(7) { animation-delay: 2.4s; }
+      .white-line:nth-child(8) { animation-delay: 2.8s; }
+      .white-line:nth-child(9) { animation-delay: 3.2s; }
+      .white-line:nth-child(10) { animation-delay: 3.6s; }
+      .white-line:nth-child(11) { animation-delay: 4.0s; }
+      .white-line:nth-child(12) { animation-delay: 4.4s; }
     </style>
   </defs>
 
-  <rect width="100%" height="100%" fill="black" />
+  <rect width="1000" height="200" x="0" y="0" fill="black" />
 
   <g id="text-group-white">
     <path class="letter white-line" d="M80,60 Q50,60 50,90 Q50,120 80,120" /> 
